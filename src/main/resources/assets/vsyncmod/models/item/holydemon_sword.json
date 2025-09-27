@@ -1,0 +1,66 @@
+{
+  "loader": "forge:separate_transforms",
+  "base": {
+    "loader": "forge:obj",
+    "model": "vsyncmod:models/obj/holydemon_sword.obj",
+    "flip-v": true,
+    "display": {
+      "thirdperson_righthand": {
+        "translation": [-9.5, 4.5, 7.0],
+        "rotation": [0, -90, 0],
+        "scale": [0.8, 0.8, 0.8]
+      },
+      "firstperson_righthand": {
+        "translation": [3.5, 4.5, 0],
+        "rotation": [0, 90, 0],
+        "scale": [0.7, 0.7, 0.7]
+      },
+      "thirdperson_lefthand": {
+        "translation": [9.5, 4.5, 7.0],
+        "rotation": [0, 90, 0],
+        "scale": [0.8, 0.8, 0.8]
+      },
+      "firstperson_lefthand": {
+        "translation": [7.0, 6.5, 0],
+        "rotation": [0, 90, 0],
+        "scale": [0.7, 0.7, 0.7]
+      }
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "loader": "forge:obj",
+      "model": "vsyncmod:models/obj/holydemon_sword.obj",
+      "flip-v": true,
+      "display": {
+        "gui": {
+          "translation": [0, 5, 0],
+          "rotation": [30, 225, 0],
+          "scale": [0.8, 0.8, 0.8]
+        }
+      }
+    },
+    "ground": {
+      "loader": "forge:obj",
+      "model": "vsyncmod:models/obj/holydemon_sword.obj",
+      "flip-v": true,
+      "display": {
+        "ground": {
+          "translation": [0, 2, 0],
+          "scale": [0.5, 0.5, 0.5]
+        }
+      }
+    },
+    "fixed": {
+      "loader": "forge:obj",
+      "model": "vsyncmod:models/obj/holydemon_sword.obj",
+      "flip-v": true,
+      "display": {
+        "fixed": {
+          "rotation": [0, 90, 0],
+          "scale": [0.7, 0.7, 0.7]
+        }
+      }
+    }
+  }
+}
