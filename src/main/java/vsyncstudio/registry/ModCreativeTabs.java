@@ -25,6 +25,22 @@ public class ModCreativeTabs {
                             output.accept(ModItem.CHING_TIAN.get());
                             output.accept(ModItem.DEVIL_JIAN.get());
                             output.accept(ModItem.HOLYDEMON_SWORD.get());
+                            output.accept(ModItem.AMETHYRA.get());
+                            output.accept(ModItem.EVILFORKS.get());
+                            output.accept(ModItem.VOID_STRIKE.get());
+                            output.accept(ModItem.CRIMSON_CRESCENT.get());
+                            output.accept(ModItem.SYNTHETIC.get());
+                            output.accept(ModItem.ABYSSREND.get());
+                            output.accept(ModItem.CELESTIA.get());
+                            output.accept(ModItem.CHIGETSU.get());
+                            output.accept(ModItem.CRIMSON_SYCTHE.get());
+                            output.accept(ModItem.DRANEW.get());
+                            output.accept(ModItem.FORGE_OF_FIRE.get());
+                            output.accept(ModItem.HOLY_WEAPONS.get());
+                            output.accept(ModItem.MASASHI.get());
+                            output.accept(ModItem.POISON_NEEDLE.get());
+                            output.accept(ModItem.SYLVEN.get());
+                            output.accept(ModItem.YUJIRO.get());
                     })
                     .build()
     );

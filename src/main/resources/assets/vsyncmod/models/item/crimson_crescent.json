@@ -1,0 +1,64 @@
+{
+"loader" : "forge:separate_transforms",
+"base":
+{
+"loader": "forge:obj",
+"model": "vsyncmod:models/obj/crimson_crescent0.0.2.obj",
+"flip-v": false,
+"display":
+{
+"thirdperson_righthand":
+{
+"translation": [12.7,-15.0,14.8],
+"rotation": [90.0,0.0,0.0],
+"scale": [1.6, 1.6, 1.6]
+},
+"firstperson_righthand":
+{
+"translation": [0,0,0],
+"rotation": [0,0,0],
+"scale": [0.0, 0.0, 0.0]
+},
+"thirdperson_lefthand":
+{
+"translation": [0.0,0.0,0.0],
+"rotation": [0,0,0],
+"scale": [0.0,0.0,0.0]
+},
+"firstperson_lefthand":
+{
+"translation": [0,0,0],
+"rotation": [0,0,0],
+"scale": [0, 0, 0]
+}
+}
+},
+"perspectives":
+{
+"ground":
+{
+"parent": "item/generated",
+"textures":
+{
+"layer0": "vsyncmod:item/crimsoncrescent"
+}
+},
+"gui":
+{
+"parent": "item/generated",
+"textures":
+{
+"layer0": "vsyncmod:item/crimsoncrescent"
+},
+"gui_light": "front"
+},
+"fixed":
+{
+"parent": "item/generated",
+"textures":
+{
+"layer0": "vsyncmod:item/crimsoncrescent"
+}
+}
+}
+}

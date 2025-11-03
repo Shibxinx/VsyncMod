@@ -1,0 +1,64 @@
+{
+"loader" : "forge:separate_transforms",
+"base":
+{
+"loader": "forge:obj",
+"model": "vsyncmod:models/obj/trident.obj",
+"flip-v": true,
+"display":
+{
+"thirdperson_righthand":
+{
+"translation": [16.0, 12.0,-18.0],
+"rotation": [-5.0, 90,0.0],
+"scale": [2.0, 2.0, 2.0]
+},
+"firstperson_righthand":
+{
+"translation": [0,0,0],
+"rotation": [0,0,0],
+"scale": [0.0, 0.0, 0.0]
+},
+"thirdperson_lefthand":
+{
+"translation": [0.0,0.0,0.0],
+"rotation": [0,0,0],
+"scale": [0.0,0.0,0.0]
+},
+"firstperson_lefthand":
+{
+"translation": [0,0,0],
+"rotation": [0,0,0],
+"scale": [0, 0, 0]
+}
+}
+},
+"perspectives":
+{
+"ground":
+{
+"parent": "item/generated",
+"textures":
+{
+"layer0": "vsyncmod:item/evil_forks2d"
+}
+},
+"gui":
+{
+"parent": "item/generated",
+"textures":
+{
+"layer0": "vsyncmod:item/evil_forks2d"
+},
+"gui_light": "front"
+},
+"fixed":
+{
+"parent": "item/generated",
+"textures":
+{
+"layer0": "vsyncmod:item/evil_forks2d"
+}
+}
+}
+}

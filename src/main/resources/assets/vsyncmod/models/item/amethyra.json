@@ -1,0 +1,64 @@
+{
+"loader" : "forge:separate_transforms",
+"base":
+{
+"loader": "forge:obj",
+"model": "vsyncmod:models/obj/spear0.0.1.obj",
+"flip-v": true,
+"display":
+{
+"thirdperson_righthand":
+{
+"translation": [32.0, 14.5, -39.3],
+"rotation": [-20, 90, 0],
+"scale": [4.0, 4.0, 4.0]
+},
+"firstperson_righthand":
+{
+"translation": [0.0,0.0,0.0],
+"rotation": [0.0,0.0,0.0],
+"scale": [0.0, 0.0, 0.0]
+},
+"thirdperson_lefthand":
+{
+"translation": [0.0, 0.0, 0.0],
+"rotation": [0, 0, 0],
+"scale": [0.0, 0.0, 0.0]
+},
+"firstperson_lefthand":
+{
+"translation": [0,0,0],
+"rotation": [0,0,0],
+"scale": [0.0, 0.0, 0.0]
+}
+}
+},
+"perspectives":
+{
+"ground":
+{
+"parent": "item/generated",
+"textures":
+{
+"layer0": "vsyncmod:item/nusspear2d"
+}
+},
+"gui":
+{
+"parent": "item/generated",
+"textures":
+{
+"layer0": "vsyncmod:item/nusspear2d"
+},
+"gui_light": "front"
+},
+"fixed":
+{
+"parent": "item/generated",
+"textures":
+{
+"layer0": "vsyncmod:item/nusspear2d"
+}
+}
+}
+}

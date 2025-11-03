@@ -2,13 +2,13 @@
   "loader": "forge:separate_transforms",
   "base": {
     "loader": "forge:obj",
-    "model": "vsyncmod:models/obj/holydemon_sword.obj",
+    "model": "vsyncmod:models/obj/synthetic0.0.2.obj",
     "flip-v": true,
     "display": {
       "thirdperson_righthand": {
-        "translation": [-9.5, 4.5, 7.0],
-        "rotation": [0, -90, 0],
-        "scale": [0.8, 0.8, 0.8]
+        "translation": [8.0, 4.2, 3.2],
+        "rotation": [0, -90, 10.0],
+        "scale": [0.5, 0.5, 0.5]
       },
       "firstperson_righthand": {
         "translation": [3.5, 4.5, 0],
@@ -34,7 +34,7 @@
       "parent": "item/generated",
       "textures":
       {
-        "layer0": "vsyncmod:item/holydemonsword2d"
+        "layer0": "vsyncmod:item/synthetic2d"
       }
     },
     "gui":
@@ -42,7 +42,7 @@
       "parent": "item/generated",
       "textures":
       {
-        "layer0": "vsyncmod:item/holydemonsword2d"
+        "layer0": "vsyncmod:item/synthetic2d"
       },
       "gui_light": "front"
     },
@@ -51,7 +51,7 @@
       "parent": "item/generated",
       "textures":
       {
-        "layer0": "vsyncmod:item/holydemonsword2d"
+        "layer0": "vsyncmod:item/synthetic2d"
       }
     }
   }
