@@ -19,9 +19,6 @@ public class ModItem {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, "vsyncmod");
 
-    public static final RegistryObject<Item> CHING_TIAN = ITEMS.register("ching_tian",
-            () -> new SwordItem(Tiers.IRON, 1, -2.45F, new Item.Properties().stacksTo(1)));
-
     public static final RegistryObject<Item> DEVIL_JIAN = ITEMS.register("devil_jian",
             () -> new SwordItem(Tiers.IRON, 1, -2.45F, new Item.Properties().stacksTo(1)));
 
@@ -75,6 +72,16 @@ public class ModItem {
             }
     );
 
+    public static final RegistryObject<Item> MUKISANE = ITEMS.register("mukisane",
+            () -> new SwordItem(Tiers.IRON, 1, -2.45F, new Item.Properties().stacksTo(1)){
+                @Override
+                public void appendHoverText(ItemStack stack, @Nullable Level world, List<Component> tooltip, TooltipFlag flag) {
+                    super.appendHoverText(stack, world, tooltip, flag); // รักษาของเดิม
+                    tooltip.add(Component.literal("This Sword Made For ISAC")); // เพิ่มข้อความ tooltip
+                }
+            }
+    );
+
     public static final RegistryObject<Item> ABYSSREND = ITEMS.register("abyssrend",
             () -> new SwordItem(Tiers.IRON, 1, -2.45F, new Item.Properties().stacksTo(1)));
 
@@ -84,29 +91,17 @@ public class ModItem {
     public static final RegistryObject<Item> CHIGETSU = ITEMS.register("chigetsu",
             () -> new SwordItem(Tiers.IRON, 1, -2.45F, new Item.Properties().stacksTo(1)));
 
-    public static final RegistryObject<Item> CRIMSON_SYCTHE = ITEMS.register("crimson_sycthe",
-            () -> new SwordItem(Tiers.IRON, 1, -2.45F, new Item.Properties().stacksTo(1)));
-
-    public static final RegistryObject<Item> DRANEW = ITEMS.register("dranew",
-            () -> new SwordItem(Tiers.IRON, 1, -2.45F, new Item.Properties().stacksTo(1)));
-
-    public static final RegistryObject<Item> FORGE_OF_FIRE = ITEMS.register("forge_of_fire",
-            () -> new SwordItem(Tiers.IRON, 1, -2.45F, new Item.Properties().stacksTo(1)));
-
     public static final RegistryObject<Item> HOLY_WEAPONS = ITEMS.register("holy_weapons",
-            () -> new SwordItem(Tiers.IRON, 1, -2.45F, new Item.Properties().stacksTo(1)));
-
-    public static final RegistryObject<Item> MASASHI = ITEMS.register("masashi",
             () -> new SwordItem(Tiers.IRON, 1, -2.45F, new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<Item> POISON_NEEDLE = ITEMS.register("poison_needle",
             () -> new SwordItem(Tiers.IRON, 1, -2.45F, new Item.Properties().stacksTo(1)));
 
-    public static final RegistryObject<Item> SYLVEN = ITEMS.register("sylven",
+    public static final RegistryObject<Item> SCORPION = ITEMS.register("scorpion",
             () -> new SwordItem(Tiers.IRON, 1, -2.45F, new Item.Properties().stacksTo(1)));
 
-    public static final RegistryObject<Item> YUJIRO = ITEMS.register("yujiro",
-            () -> new SwordItem(Tiers.IRON, 1, -2.45F, new Item.Properties().stacksTo(1)));
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

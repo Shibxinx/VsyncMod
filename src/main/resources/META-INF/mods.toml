@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[47,)"   # Forge 1.20.x
-license="MIT"
+license="All rights reserved"
 issueTrackerURL="https://example.com/issues"
 
 [[mods]]

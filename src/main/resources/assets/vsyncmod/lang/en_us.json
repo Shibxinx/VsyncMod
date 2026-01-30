@@ -1,5 +1,4 @@
 {
-  "item.vsyncmod.ching_tian": "ChingTian Sword",
   "item.vsyncmod.devil_jian": "Devil Jian",
   "item.vsyncmod.holydemon_sword": "Holy Demon Sword",
   "item.vsyncmod.amethyra": "AMETHYRA",
@@ -10,13 +9,8 @@
   "item.vsyncmod.abyssrend": "ABYSSREND",
   "item.vsyncmod.celestia": "CELESTIA",
   "item.vsyncmod.chigetsu": "CHIGETSU",
-  "item.vsyncmod.crimson_sycthe": "CRIMSON_SYCTHE",
-  "item.vsyncmod.dranew": "DRANEW",
-  "item.vsyncmod.forge_of_fire": "FORGE_OF_FIRE",
   "item.vsyncmod.holy_weapons": "HOLY_WEAPONS",
-  "item.vsyncmod.masashi": "MASASHI",
   "item.vsyncmod.poison_needle": "POISON_NEEDLE",
-  "item.vsyncmod.sylven": "SYLVEN",
-  "item.vsyncmod.verdalis_sylvanea": "VERDALIS_SYLVANEA",
-  "item.vsyncmod.yujiro": "YUJIRO"
+  "item.vsyncmod.mukisane": "MUKISANE",
+  "item.vsyncmod.scorpion": "SCORPION"
 }

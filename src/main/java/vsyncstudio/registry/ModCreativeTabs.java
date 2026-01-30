@@ -19,10 +19,9 @@ public class ModCreativeTabs {
     public static final RegistryObject<CreativeModeTab> VSYNC_TAB = TABS.register("vsync_tab",
             () -> CreativeModeTab.builder()
                     .title(Component.literal("Vsync Weapons"))
-                    .icon(() -> new ItemStack(ModItem.CHING_TIAN.get()))
+                    .icon(() -> new ItemStack(ModItem.HOLYDEMON_SWORD.get()))
                     .displayItems((params, output) -> {
                         //Item want to show
-                            output.accept(ModItem.CHING_TIAN.get());
                             output.accept(ModItem.DEVIL_JIAN.get());
                             output.accept(ModItem.HOLYDEMON_SWORD.get());
                             output.accept(ModItem.AMETHYRA.get());
@@ -33,14 +32,10 @@ public class ModCreativeTabs {
                             output.accept(ModItem.ABYSSREND.get());
                             output.accept(ModItem.CELESTIA.get());
                             output.accept(ModItem.CHIGETSU.get());
-                            output.accept(ModItem.CRIMSON_SYCTHE.get());
-                            output.accept(ModItem.DRANEW.get());
-                            output.accept(ModItem.FORGE_OF_FIRE.get());
                             output.accept(ModItem.HOLY_WEAPONS.get());
-                            output.accept(ModItem.MASASHI.get());
                             output.accept(ModItem.POISON_NEEDLE.get());
-                            output.accept(ModItem.SYLVEN.get());
-                            output.accept(ModItem.YUJIRO.get());
+                            output.accept(ModItem.MUKISANE.get());
+                            output.accept(ModItem.SCORPION.get());
                     })
                     .build()
     );
